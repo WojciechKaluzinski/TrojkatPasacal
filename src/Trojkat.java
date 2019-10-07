@@ -1,5 +1,8 @@
 public class Trojkat {
-    private static int factorial(int n) {
+
+     static int factorial(int n) {
+
+   
         int f;
 
         for(f = 1; n > 1; n--){
