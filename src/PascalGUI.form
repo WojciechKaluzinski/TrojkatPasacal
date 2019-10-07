@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="PascalGUI">
+  <grid id="27dc6" binding="Rozmiar" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="192" y="40" width="817" height="506"/>
+    </constraints>
+    <properties>
+      <foreground color="-13154629"/>
+    </properties>
+    <border type="none" title="Trójkąt Pascala"/>
+    <children>
+      <component id="5fd0e" class="javax.swing.JTextArea" binding="Pole">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="8" fill="2" indent="5" use-parent-layout="false">
+            <preferred-size width="495" height="300"/>
+            <maximum-size width="500" height="500"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15316458"/>
+          <foreground color="-10700023"/>
+        </properties>
+      </component>
+      <component id="f985b" class="javax.swing.JButton" binding="OKButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="20" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15922367"/>
+          <foreground color="-14867781"/>
+          <text value="OK"/>
+        </properties>
+      </component>
+      <component id="b762" class="javax.swing.JTextField" binding="Podanen">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="4" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="502" height="128"/>
+            <maximum-size width="50" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b2ba4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="90" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="PODAJ ROZMIAR TRÓJKĄTA PASCALA"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
